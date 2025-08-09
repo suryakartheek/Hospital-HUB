@@ -1,12 +1,12 @@
 /* General & Typography */
 :root {
     --primary-color: #007bff; /* Deep Blue */
-    --secondary-color: #ff5722; /* Bright Orange */
+    --secondary-color: #2275ff; /* Bright Orange */
     --background-color: #f4f7f6; /* Crisp White/Gray */
     --card-background: rgba(255, 255, 255, 0.9);
     --border-color: rgba(0, 0, 0, 0.1);
     --text-color: #212529; /* Dark Gray */
-    --accent-color: #dc3545; /* Red for alerts */
+    --accent-color: #3565dc; /* Red for alerts */
     --light-text: #fff;
 }
 
@@ -42,12 +42,12 @@ body {
 
 /* Glassmorphism Effect */
 .glassmorphism-card {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(31, 38, 135, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 20px;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    box-shadow: 0 8px 32px 0 rgb(31 49 135 / 76%);
     padding: 2rem;
     color: var(--text-color);
 }
@@ -108,7 +108,7 @@ nav ul li a:hover {
 }
 
 .login-btn:hover {
-    background-color: #d84315;
+    background-color: #8fff00;
 }
 
 /* Hero Section Specifics */
@@ -214,7 +214,7 @@ nav ul li a:hover {
 
 .doctor-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px #356cdc;
 }
 
 .doctor-photo {
@@ -278,6 +278,7 @@ nav ul li a:hover {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 30px;
+    
 }
 
 .ambulance-cta {
